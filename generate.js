@@ -37,6 +37,10 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 j++;}
 
 if(a_to_vh==false)
+  {var encryptedUrl=Base64.encode(a_to_vi);
+var x=Math.floor((Math.random()*5)+ 1);
+var xxx=null;
+if(x=="1"){xxx="7-tips-for-healthy-lifestyle.html"}
 
 {var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://trikkerlink.blogspot.com/p/generate.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 
